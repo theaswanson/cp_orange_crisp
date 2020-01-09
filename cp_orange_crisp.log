@@ -1,0 +1,1890 @@
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14654 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 79 texinfos to 49
+Reduced 2 texdatas to 2 (44 bytes to 44)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 412 portalclusters
+ 888 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 18 visible clusters (0.01%)
+Total clusters visible: 159884
+Average clusters visible: 388
+Building PAS...
+Average clusters audible: 412
+visdatasize:45992  compressed from 46144
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+892 faces
+14236868 square feet [2050108928.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+892 patches before subdivision
+12316 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 580616, max 269
+transfer lists:   4.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(25466, 23612, 20538)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3130, 2691, 2036)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(384, 306, 201)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(47, 35, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(6, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             272/65536        2176/524288   ( 0.4%) 
+planes                 168/65536        3360/1310720  ( 0.3%) 
+vertexes              1012/65536       12144/786432   ( 1.5%) 
+nodes                 1175/65536       37600/2097152  ( 1.8%) 
+texinfos                49/12288        3528/884736   ( 0.4%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  892/65536       49952/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              126/65536        7056/3670016  ( 0.2%) 
+leaves                1177/65536       37664/2097152  ( 1.8%) 
+leaffaces              946/65536        1892/131072   ( 1.4%) 
+leafbrushes            766/65536        1532/131072   ( 1.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4250/512000      17000/2048000  ( 0.8%) 
+edges                 2232/256000       8928/1024000  ( 0.9%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             46/32768         460/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           630/65536        1260/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      846576/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       45992/16777216 ( 0.3%) 
+entdata               [variable]         799/393216   ( 0.2%) 
+LDR ambient table     1177/65536        4708/262144   ( 1.8%) 
+HDR ambient table     1177/65536        4708/262144   ( 1.8%) 
+LDR leaf ambient      1096/65536       30688/1835008  ( 1.7%) 
+HDR leaf ambient      1177/65536       32956/1835008  ( 1.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       14654/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1970
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+6 seconds elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15158 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 70 texinfos to 48
+Reduced 2 texdatas to 2 (44 bytes to 44)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 103 portalclusters
+ 283 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.02%)
+Total clusters visible: 8285
+Average clusters visible: 80
+Building PAS...
+Average clusters audible: 103
+visdatasize:3536  compressed from 3296
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+277 faces
+2683641 square feet [386444352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+277 patches before subdivision
+7411 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 342193, max 246
+transfer lists:   2.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(36182, 33548, 29181)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4476, 3849, 2912)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(542, 432, 284)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(66, 48, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0008 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 45/8192          540/98304    ( 0.5%) 
+brushsides             278/65536        2224/524288   ( 0.4%) 
+planes                 130/65536        2600/1310720  ( 0.2%) 
+vertexes               375/65536        4500/786432   ( 0.6%) 
+nodes                  258/65536        8256/2097152  ( 0.4%) 
+texinfos                48/12288        3456/884736   ( 0.4%) 
+texdata                  2/2048           64/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  277/65536       15512/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              130/65536        7280/3670016  ( 0.2%) 
+leaves                 260/65536        8320/2097152  ( 0.4%) 
+leaffaces              293/65536         586/131072   ( 0.4%) 
+leafbrushes            146/65536         292/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1758/512000       7032/2048000  ( 0.3%) 
+edges                 1000/256000       4000/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           234/65536         468/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      454292/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3536/16777216 ( 0.0%) 
+entdata               [variable]         871/393216   ( 0.2%) 
+LDR ambient table      260/65536        1040/262144   ( 0.4%) 
+HDR ambient table      260/65536        1040/262144   ( 0.4%) 
+LDR leaf ambient       771/65536       21588/1835008  ( 1.2%) 
+HDR leaf ambient       260/65536        7280/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       15158/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 692
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (18678 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 82 texinfos to 58
+Reduced 3 texdatas to 3 (70 bytes to 70)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 120 portalclusters
+ 338 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 13 visible clusters (0.12%)
+Total clusters visible: 10803
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 120
+visdatasize:4609  compressed from 3840
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+365 faces
+2709370 square feet [390149376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+365 patches before subdivision
+10549 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 485787, max 249
+transfer lists:   3.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39888, 35691, 30153)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5565, 4439, 3152)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(756, 536, 320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(104, 65, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(14, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 56/8192          672/98304    ( 0.7%) 
+brushsides             348/65536        2784/524288   ( 0.5%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               495/65536        5940/786432   ( 0.8%) 
+nodes                  291/65536        9312/2097152  ( 0.4%) 
+texinfos                58/12288        4176/884736   ( 0.5%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  365/65536       20440/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              169/65536        9464/3670016  ( 0.3%) 
+leaves                 293/65536        9376/2097152  ( 0.4%) 
+leaffaces              396/65536         792/131072   ( 0.6%) 
+leafbrushes            165/65536         330/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2336/512000       9344/2048000  ( 0.5%) 
+edges                 1315/256000       5260/1024000  ( 0.5%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             27/32768         270/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           399/65536         798/131072   ( 0.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      463708/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        4609/16777216 ( 0.0%) 
+entdata               [variable]         563/393216   ( 0.1%) 
+LDR ambient table      293/65536        1172/262144   ( 0.4%) 
+HDR ambient table      293/65536        1172/262144   ( 0.4%) 
+LDR leaf ambient       850/65536       23800/1835008  ( 1.3%) 
+HDR leaf ambient       293/65536        8204/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       18678/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 938
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28678 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 134 texinfos to 104
+Reduced 3 texdatas to 3 (70 bytes to 70)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 172 portalclusters
+ 538 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 36 visible clusters (0.19%)
+Total clusters visible: 18688
+Average clusters visible: 108
+Building PAS...
+Average clusters audible: 172
+visdatasize:8969  compressed from 8256
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+535 faces
+2720964 square feet [391818816.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+535 patches before subdivision
+12265 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 592297, max 257
+transfer lists:   4.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(40182, 36835, 31750)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4796, 4067, 3045)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(571, 448, 292)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(69, 50, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 83/8192          996/98304    ( 1.0%) 
+brushsides             522/65536        4176/524288   ( 0.8%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               704/65536        8448/786432   ( 1.1%) 
+nodes                  383/65536       12256/2097152  ( 0.6%) 
+texinfos               104/12288        7488/884736   ( 0.8%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  535/65536       29960/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              260/65536       14560/3670016  ( 0.4%) 
+leaves                 385/65536       12320/2097152  ( 0.6%) 
+leaffaces              572/65536        1144/131072   ( 0.9%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3440/512000      13760/2048000  ( 0.7%) 
+edges                 1911/256000       7644/1024000  ( 0.7%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           444/65536         888/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      542808/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8969/16777216 ( 0.1%) 
+entdata               [variable]         720/393216   ( 0.2%) 
+LDR ambient table      385/65536        1540/262144   ( 0.6%) 
+HDR ambient table      385/65536        1540/262144   ( 0.6%) 
+LDR leaf ambient      1371/65536       38388/1835008  ( 2.1%) 
+HDR leaf ambient       385/65536       10780/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       28678/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1338
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29070 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 134 texinfos to 104
+Reduced 3 texdatas to 3 (70 bytes to 70)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 177 portalclusters
+ 548 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 41 visible clusters (0.21%)
+Total clusters visible: 19464
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 177
+visdatasize:9645  compressed from 8496
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+546 faces
+2721120 square feet [391841344.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+546 patches before subdivision
+12276 patches after subdivision
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 594558, max 241
+transfer lists:   4.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39993, 36661, 31597)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4768, 4043, 3027)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(568, 446, 291)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(68, 50, 28)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(8, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 84/8192         1008/98304    ( 1.0%) 
+brushsides             528/65536        4224/524288   ( 0.8%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               713/65536        8556/786432   ( 1.1%) 
+nodes                  391/65536       12512/2097152  ( 0.6%) 
+texinfos               104/12288        7488/884736   ( 0.8%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  546/65536       30576/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              264/65536       14784/3670016  ( 0.4%) 
+leaves                 393/65536       12576/2097152  ( 0.6%) 
+leaffaces              582/65536        1164/131072   ( 0.9%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3500/512000      14000/2048000  ( 0.7%) 
+edges                 1945/256000       7780/1024000  ( 0.8%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      545432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9645/16777216 ( 0.1%) 
+entdata               [variable]        1006/393216   ( 0.3%) 
+LDR ambient table      393/65536        1572/262144   ( 0.6%) 
+HDR ambient table      393/65536        1572/262144   ( 0.6%) 
+LDR leaf ambient      1402/65536       39256/1835008  ( 2.1%) 
+HDR leaf ambient       393/65536       11004/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       29070/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1360
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29070 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 134 texinfos to 104
+Reduced 3 texdatas to 3 (70 bytes to 70)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 177 portalclusters
+ 548 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 41 visible clusters (0.21%)
+Total clusters visible: 19464
+Average clusters visible: 109
+Building PAS...
+Average clusters audible: 177
+visdatasize:9645  compressed from 8496
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+546 faces
+2721120 square feet [391841344.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+546 patches before subdivision
+12276 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 594558, max 241
+transfer lists:   4.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(67498, 58248, 47676)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6999, 5475, 3855)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(770, 552, 339)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(88, 58, 31)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(10, 6, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 84/8192         1008/98304    ( 1.0%) 
+brushsides             528/65536        4224/524288   ( 0.8%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               713/65536        8556/786432   ( 1.1%) 
+nodes                  391/65536       12512/2097152  ( 0.6%) 
+texinfos               104/12288        7488/884736   ( 0.8%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  546/65536       30576/3670016  ( 0.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              264/65536       14784/3670016  ( 0.4%) 
+leaves                 393/65536       12576/2097152  ( 0.6%) 
+leaffaces              582/65536        1164/131072   ( 0.9%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3500/512000      14000/2048000  ( 0.7%) 
+edges                 1945/256000       7780/1024000  ( 0.8%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             31/32768         310/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           450/65536         900/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      545432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9645/16777216 ( 0.1%) 
+entdata               [variable]        2292/393216   ( 0.6%) 
+LDR ambient table      393/65536        1572/262144   ( 0.6%) 
+HDR ambient table      393/65536        1572/262144   ( 0.6%) 
+LDR leaf ambient      2533/65536       70924/1835008  ( 3.9%) 
+HDR leaf ambient       393/65536       11004/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       29070/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1360
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32526 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 158 texinfos to 121
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 170 portalclusters
+ 476 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 46 visible clusters (0.26%)
+Total clusters visible: 17776
+Average clusters visible: 104
+Building PAS...
+Average clusters audible: 170
+visdatasize:8875  compressed from 8160
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+620 faces
+2750571 square feet [396082208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+620 patches before subdivision
+15470 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 826988, max 241
+transfer lists:   6.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(100210, 85061, 69006)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12757, 9267, 6170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1796, 1108, 606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(262, 134, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(40, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 96/8192         1152/98304    ( 1.2%) 
+brushsides             602/65536        4816/524288   ( 0.9%) 
+planes                 208/65536        4160/1310720  ( 0.3%) 
+vertexes               818/65536        9816/786432   ( 1.2%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               121/12288        8712/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  620/65536       34720/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              304/65536       17024/3670016  ( 0.5%) 
+leaves                 400/65536       12800/2097152  ( 0.6%) 
+leaffaces              688/65536        1376/131072   ( 1.0%) 
+leafbrushes            245/65536         490/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4034/512000      16136/2048000  ( 0.8%) 
+edges                 2237/256000       8948/1024000  ( 0.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             39/32768         390/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           561/65536        1122/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      618836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8875/16777216 ( 0.1%) 
+entdata               [variable]        2295/393216   ( 0.6%) 
+LDR ambient table      400/65536        1600/262144   ( 0.6%) 
+HDR ambient table      400/65536        1600/262144   ( 0.6%) 
+LDR leaf ambient      2296/65536       64288/1835008  ( 3.5%) 
+HDR leaf ambient       400/65536       11200/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       32526/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1588
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32526 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 158 texinfos to 121
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 170 portalclusters
+ 476 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 46 visible clusters (0.26%)
+Total clusters visible: 17776
+Average clusters visible: 104
+Building PAS...
+Average clusters audible: 170
+visdatasize:8875  compressed from 8160
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+620 faces
+2750571 square feet [396082208.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+620 patches before subdivision
+15470 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 826988, max 241
+transfer lists:   6.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(100210, 85061, 69006)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12757, 9267, 6170)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1796, 1108, 606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(262, 134, 59)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(40, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 96/8192         1152/98304    ( 1.2%) 
+brushsides             602/65536        4816/524288   ( 0.9%) 
+planes                 208/65536        4160/1310720  ( 0.3%) 
+vertexes               818/65536        9816/786432   ( 1.2%) 
+nodes                  398/65536       12736/2097152  ( 0.6%) 
+texinfos               121/12288        8712/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  620/65536       34720/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              304/65536       17024/3670016  ( 0.5%) 
+leaves                 400/65536       12800/2097152  ( 0.6%) 
+leaffaces              688/65536        1376/131072   ( 1.0%) 
+leafbrushes            245/65536         490/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4034/512000      16136/2048000  ( 0.8%) 
+edges                 2237/256000       8948/1024000  ( 0.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             39/32768         390/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           561/65536        1122/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      618836/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8875/16777216 ( 0.1%) 
+entdata               [variable]        2646/393216   ( 0.7%) 
+LDR ambient table      400/65536        1600/262144   ( 0.6%) 
+HDR ambient table      400/65536        1600/262144   ( 0.6%) 
+LDR leaf ambient      2296/65536       64288/1835008  ( 3.5%) 
+HDR leaf ambient       400/65536       11200/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       32526/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1588
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33198 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 163 texinfos to 126
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 172 portalclusters
+ 474 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 45 visible clusters (0.25%)
+Total clusters visible: 18099
+Average clusters visible: 105
+Building PAS...
+Average clusters audible: 172
+visdatasize:8997  compressed from 8256
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+630 faces
+2750535 square feet [396077056.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+630 patches before subdivision
+15618 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837747, max 241
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(101197, 85885, 69670)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(12852, 9334, 6213)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1809, 1116, 611)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(263, 135, 60)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(40, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0022 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 98/8192         1176/98304    ( 1.2%) 
+brushsides             614/65536        4912/524288   ( 0.9%) 
+planes                 214/65536        4280/1310720  ( 0.3%) 
+vertexes               828/65536        9936/786432   ( 1.3%) 
+nodes                  399/65536       12768/2097152  ( 0.6%) 
+texinfos               126/12288        9072/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  630/65536       35280/3670016  ( 1.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              314/65536       17584/3670016  ( 0.5%) 
+leaves                 401/65536       12832/2097152  ( 0.6%) 
+leaffaces              694/65536        1388/131072   ( 1.1%) 
+leafbrushes            243/65536         486/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4116/512000      16464/2048000  ( 0.8%) 
+edges                 2285/256000       9140/1024000  ( 0.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             40/32768         400/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           573/65536        1146/131072   ( 0.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      620696/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        8997/16777216 ( 0.1%) 
+entdata               [variable]        2647/393216   ( 0.7%) 
+LDR ambient table      401/65536        1604/262144   ( 0.6%) 
+HDR ambient table      401/65536        1604/262144   ( 0.6%) 
+LDR leaf ambient      2296/65536       64288/1835008  ( 3.5%) 
+HDR leaf ambient       401/65536       11228/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       33198/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1610
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+1 second elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33886 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 166 texinfos to 127
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 200 portalclusters
+ 510 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 46 visible clusters (0.19%)
+Total clusters visible: 23700
+Average clusters visible: 118
+Building PAS...
+Average clusters audible: 200
+visdatasize:11708  compressed from 12800
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+790 faces
+2848277 square feet [410151904.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+790 patches before subdivision
+26564 patches after subdivision
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1651174, max 308
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(170505, 142659, 114796)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(28189, 19543, 12568)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5248, 2988, 1531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1014, 468, 189)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(206, 77, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(42, 13, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                100/8192         1200/98304    ( 1.2%) 
+brushsides             626/65536        5008/524288   ( 1.0%) 
+planes                 220/65536        4400/1310720  ( 0.3%) 
+vertexes              1077/65536       12924/786432   ( 1.6%) 
+nodes                  447/65536       14304/2097152  ( 0.7%) 
+texinfos               127/12288        9144/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  790/65536       44240/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              318/65536       17808/3670016  ( 0.5%) 
+leaves                 449/65536       14368/2097152  ( 0.7%) 
+leaffaces              934/65536        1868/131072   ( 1.4%) 
+leafbrushes            263/65536         526/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4950/512000      19800/2048000  ( 1.0%) 
+edges                 2712/256000      10848/1024000  ( 1.1%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1425/65536        2850/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      865112/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11708/16777216 ( 0.1%) 
+entdata               [variable]        2649/393216   ( 0.7%) 
+LDR ambient table      449/65536        1796/262144   ( 0.7%) 
+HDR ambient table      449/65536        1796/262144   ( 0.7%) 
+LDR leaf ambient      2471/65536       69188/1835008  ( 3.8%) 
+HDR leaf ambient       449/65536       12572/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       33886/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2108
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33886 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 169 texinfos to 128
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 198 portalclusters
+ 498 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 38 visible clusters (0.16%)
+Total clusters visible: 23224
+Average clusters visible: 117
+Building PAS...
+Average clusters audible: 198
+visdatasize:11629  compressed from 12672
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+790 faces
+2848198 square feet [410140608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+790 patches before subdivision
+26566 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1651418, max 311
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(191270, 161807, 131387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(30628, 21624, 14134)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(5542, 3218, 1680)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1050, 494, 203)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(210, 80, 26)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(43, 13, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                100/8192         1200/98304    ( 1.2%) 
+brushsides             626/65536        5008/524288   ( 1.0%) 
+planes                 216/65536        4320/1310720  ( 0.3%) 
+vertexes              1077/65536       12924/786432   ( 1.6%) 
+nodes                  444/65536       14208/2097152  ( 0.7%) 
+texinfos               128/12288        9216/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  790/65536       44240/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              317/65536       17752/3670016  ( 0.5%) 
+leaves                 446/65536       14272/2097152  ( 0.7%) 
+leaffaces              928/65536        1856/131072   ( 1.4%) 
+leafbrushes            261/65536         522/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4946/512000      19784/2048000  ( 1.0%) 
+edges                 2711/256000      10844/1024000  ( 1.1%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      866168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11629/16777216 ( 0.1%) 
+entdata               [variable]        2968/393216   ( 0.8%) 
+LDR ambient table      446/65536        1784/262144   ( 0.7%) 
+HDR ambient table      446/65536        1784/262144   ( 0.7%) 
+LDR leaf ambient      2442/65536       68376/1835008  ( 3.7%) 
+HDR leaf ambient       446/65536       12488/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       33886/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2108
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (33886 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 169 texinfos to 128
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 198 portalclusters
+ 498 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 38 visible clusters (0.16%)
+Total clusters visible: 23224
+Average clusters visible: 117
+Building PAS...
+Average clusters audible: 198
+visdatasize:11629  compressed from 12672
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+790 faces
+2848198 square feet [410140608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+790 patches before subdivision
+26566 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1651418, max 311
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(231650, 199094, 163728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35604, 25828, 17279)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6179, 3703, 1990)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1136, 552, 235)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(223, 87, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0040 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                100/8192         1200/98304    ( 1.2%) 
+brushsides             626/65536        5008/524288   ( 1.0%) 
+planes                 216/65536        4320/1310720  ( 0.3%) 
+vertexes              1077/65536       12924/786432   ( 1.6%) 
+nodes                  444/65536       14208/2097152  ( 0.7%) 
+texinfos               128/12288        9216/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  790/65536       44240/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              317/65536       17752/3670016  ( 0.5%) 
+leaves                 446/65536       14272/2097152  ( 0.7%) 
+leaffaces              928/65536        1856/131072   ( 1.4%) 
+leafbrushes            261/65536         522/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4946/512000      19784/2048000  ( 1.0%) 
+edges                 2711/256000      10844/1024000  ( 1.1%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      866168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       11629/16777216 ( 0.1%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      446/65536        1784/262144   ( 0.7%) 
+HDR ambient table      446/65536        1784/262144   ( 0.7%) 
+LDR leaf ambient      2443/65536       68404/1835008  ( 3.7%) 
+HDR leaf ambient       446/65536       12488/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       33886/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2108
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+790 faces
+2848198 square feet [410140608.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+790 patches before subdivision
+26566 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1651418, max 311
+transfer lists:  12.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(231650, 199093, 163728)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35604, 25828, 17279)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6179, 3703, 1990)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1136, 552, 235)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(223, 87, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                100/8192         1200/98304    ( 1.2%) 
+brushsides             626/65536        5008/524288   ( 1.0%) 
+planes                 216/65536        4320/1310720  ( 0.3%) 
+vertexes              1077/65536       12924/786432   ( 1.6%) 
+nodes                  444/65536       14208/2097152  ( 0.7%) 
+texinfos               128/12288        9216/884736   ( 1.0%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  790/65536       44240/3670016  ( 1.2%) 
+hdr faces              790/65536       44240/3670016  ( 1.2%) 
+origfaces              317/65536       17752/3670016  ( 0.5%) 
+leaves                 446/65536       14272/2097152  ( 0.7%) 
+leaffaces              928/65536        1856/131072   ( 1.4%) 
+leafbrushes            261/65536         522/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             4946/512000      19784/2048000  ( 1.0%) 
+edges                 2711/256000      10844/1024000  ( 1.1%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights         17/8192         1496/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      866168/0        ( 0.0%) 
+HDR lightdata         [variable]      866168/0        ( 0.0%) 
+visdata               [variable]       11629/16777216 ( 0.1%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      446/65536        1784/262144   ( 0.7%) 
+HDR ambient table      446/65536        1784/262144   ( 0.7%) 
+LDR leaf ambient      2443/65536       68404/1835008  ( 3.7%) 
+HDR leaf ambient      2443/65536       68404/1835008  ( 3.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       33886/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2108
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+materialPath: C:\Steam\steamapps\common\Team Fortress 2\tf\materials
+Loading D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_tf2_04 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_tf2_04 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (36174 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 189 texinfos to 151
+Reduced 4 texdatas to 4 (95 bytes to 95)
+Writing D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Projects\maps\TF2-Maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+16 threads
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+reading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.prt
+ 217 portalclusters
+ 567 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 60 visible clusters (0.21%)
+Total clusters visible: 27969
+Average clusters visible: 128
+Building PAS...
+Average clusters audible: 217
+visdatasize:13955  compressed from 13888
+writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+837 faces
+2849125 square feet [410274048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+837 patches before subdivision
+26893 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1691552, max 315
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(234915, 201593, 165517)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35972, 26049, 17394)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6207, 3715, 1994)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1140, 553, 235)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(223, 87, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                106/8192         1272/98304    ( 1.3%) 
+brushsides             662/65536        5296/524288   ( 1.0%) 
+planes                 224/65536        4480/1310720  ( 0.3%) 
+vertexes              1143/65536       13716/786432   ( 1.7%) 
+nodes                  472/65536       15104/2097152  ( 0.7%) 
+texinfos               151/12288       10872/884736   ( 1.2%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  837/65536       46872/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              357/65536       19992/3670016  ( 0.5%) 
+leaves                 474/65536       15168/2097152  ( 0.7%) 
+leaffaces              976/65536        1952/131072   ( 1.5%) 
+leafbrushes            268/65536         536/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5348/512000      21392/2048000  ( 1.0%) 
+edges                 2922/256000      11688/1024000  ( 1.1%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1599/65536        3198/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      875376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       13955/16777216 ( 0.1%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      474/65536        1896/262144   ( 0.7%) 
+HDR ambient table      474/65536        1896/262144   ( 0.7%) 
+LDR leaf ambient      2686/65536       75208/1835008  ( 4.1%) 
+HDR leaf ambient       474/65536       13272/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       36174/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2256
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[56 texlights parsed from 'lights.rad']
+
+Loading d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+837 faces
+2849125 square feet [410274048.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+837 patches before subdivision
+26893 patches after subdivision
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1691552, max 315
+transfer lists:  12.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(234915, 201593, 165517)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(35972, 26049, 17394)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(6207, 3715, 1994)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1140, 553, 235)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(223, 87, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(45, 14, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(9, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                106/8192         1272/98304    ( 1.3%) 
+brushsides             662/65536        5296/524288   ( 1.0%) 
+planes                 224/65536        4480/1310720  ( 0.3%) 
+vertexes              1143/65536       13716/786432   ( 1.7%) 
+nodes                  472/65536       15104/2097152  ( 0.7%) 
+texinfos               151/12288       10872/884736   ( 1.2%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  837/65536       46872/3670016  ( 1.3%) 
+hdr faces              837/65536       46872/3670016  ( 1.3%) 
+origfaces              357/65536       19992/3670016  ( 0.5%) 
+leaves                 474/65536       15168/2097152  ( 0.7%) 
+leaffaces              976/65536        1952/131072   ( 1.5%) 
+leafbrushes            268/65536         536/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             5348/512000      21392/2048000  ( 1.0%) 
+edges                 2922/256000      11688/1024000  ( 1.1%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights         17/8192         1496/720896   ( 0.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            120/32768        1200/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1599/65536        3198/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      875376/0        ( 0.0%) 
+HDR lightdata         [variable]      875376/0        ( 0.0%) 
+visdata               [variable]       13955/16777216 ( 0.1%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      474/65536        1896/262144   ( 0.7%) 
+HDR ambient table      474/65536        1896/262144   ( 0.7%) 
+LDR leaf ambient      2686/65536       75208/1835008  ( 4.1%) 
+HDR leaf ambient      2686/65536       75208/1835008  ( 4.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       36174/4194304  ( 0.9%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2256
+Writing d:\projects\maps\tf2-maps\cp_orange_crisp\cp_orange_crisp.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
